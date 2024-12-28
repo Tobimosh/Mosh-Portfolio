@@ -36,12 +36,13 @@ export const PinContainer = ({
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      target="_blank"
       href={href || "/"}
     >
       <div
         style={{
           perspective: "1000px",
-          transform: "rotateX(70deg) translateZ(0deg)",
+          transform: "rotateX(70deg) translateZ(0deg)", 
         }}
         className="absolute left-1/2 top-1/2 ml-[0.09375rem] mt-4 -translate-x-1/2 -translate-y-1/2"
       >
@@ -71,7 +72,7 @@ export const PinPerspective = ({
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
         <div className="absolute top-0 inset-x-0  flex justify-center">
           <a
-            href={href}
+            href={title}
             target={"_blank"}
             className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 "
           >

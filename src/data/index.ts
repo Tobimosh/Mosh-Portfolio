@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I'm a software engineer, with over two years experience, passionate about transcending the norm. ",
+    title:
+      "I'm a software engineer, with over two years experience, passionate about transcending the norm. ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -73,10 +74,10 @@ export const projects = [
   {
     id: 1,
     title: "Lexstar",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "A software solution for Dyslexics, built with Next.js to empower African learners with personalized educational tools.",
     img: "/lexstar.png",
     iconLists: [
-      "/re.svg",
+      "/next.svg",
       "/tail.svg",
       "/ts.svg",
       "/fm.svg",
@@ -87,26 +88,38 @@ export const projects = [
   {
     id: 2,
     title: "Growwr Talent",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "A software solution for Growwr Talent, built with Next.js, enabling workers to manage job applications and opportunities.",
     img: "/growwr.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/zustand.jpeg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/zustand.jpeg",
+      "/fm.svg",
+    ],
     link: "https://talent.growwr.co/",
   },
   {
     id: 3,
     title: "EazzyHub",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "A dynamic website and web app built using Next.js for Eazzy Hub Africa, enhancing B2B sales and marketing operations.",
     img: "/eazzy.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/zustand.jpeg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/zustand.jpeg",
+      "/fm.svg",
+    ],
     link: "https://eazzyhub.com",
   },
   {
     id: 4,
     title: "Jabbercoms",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "A React solution for Jabbercoms Limited with dynamic animations using Framer Motion and GSAP to enhance brand marketing.",
     img: "/jabbercoms.png",
     iconLists: [
-      "/next.svg",
+      "/re.svg",
       "/ts.svg",
       "/tail.svg",
       "/ts.svg",
@@ -121,31 +134,31 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+    name: "Emmanuel Ajayi",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+    name: "Binatari",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+    name: "Arinze Okorji",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+    name: "James Nottidge",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+    name: "Adenuga Oluwaseun",
     title: "Director of AlphaStream Technologies",
   },
 ];
