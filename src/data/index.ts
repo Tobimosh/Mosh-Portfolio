@@ -231,13 +231,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    route: "https://github.com/Tobimosh",
   },
   {
     id: 2,
     img: "/twit.svg",
+    route: "https://x.com/toBi_mo_",
   },
   {
     id: 3,
     img: "/link.svg",
+    route: "https://www.linkedin.com/in/oluwatobi-moshood-2b911922a/",
   },
 ];
