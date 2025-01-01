@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
+/* eslint-disable no-undef */
 
 export const BackgroundGradientAnimation = ({
   gradientBackgroundStart = "rgb(108, 0, 162)",
@@ -39,25 +40,59 @@ export const BackgroundGradientAnimation = ({
   const [curY, setCurY] = useState(0);
   const [tgX, setTgX] = useState(0);
   const [tgY, setTgY] = useState(0);
-  useEffect(() => {
-    document.body.style.setProperty(
-      "--gradient-background-start",
-      gradientBackgroundStart
-    );
-    document.body.style.setProperty(
-      "--gradient-background-end",
-      gradientBackgroundEnd
-    );
-    document.body.style.setProperty("--first-color", firstColor);
-    document.body.style.setProperty("--second-color", secondColor);
-    document.body.style.setProperty("--third-color", thirdColor);
-    document.body.style.setProperty("--fourth-color", fourthColor);
-    document.body.style.setProperty("--fifth-color", fifthColor);
-    document.body.style.setProperty("--pointer-color", pointerColor);
-    document.body.style.setProperty("--size", size);
-    document.body.style.setProperty("--blending-value", blendingValue);
-  }, []);
+  // useEffect(() => {
+  //   document.body.style.setProperty(
+  //     "--gradient-background-start",
+  //     gradientBackgroundStart
+  //   );
+  //   document.body.style.setProperty(
+  //     "--gradient-background-end",
+  //     gradientBackgroundEnd
+  //   );
+  //   document.body.style.setProperty("--first-color", firstColor);
+  //   document.body.style.setProperty("--second-color", secondColor);
+  //   document.body.style.setProperty("--third-color", thirdColor);
+  //   document.body.style.setProperty("--fourth-color", fourthColor);
+  //   document.body.style.setProperty("--fifth-color", fifthColor);
+  //   document.body.style.setProperty("--pointer-color", pointerColor);
+  //   document.body.style.setProperty("--size", size);
+  //   document.body.style.setProperty("--blending-value", blendingValue);
+  // }, []);
 
+  // Only apply styles on the client side
+  useEffect(() => {
+    if (typeof document === "undefined") {
+      return;
+    } else {
+      document.body.style.setProperty(
+        "--gradient-background-start",
+        gradientBackgroundStart
+      );
+      document.body.style.setProperty(
+        "--gradient-background-end",
+        gradientBackgroundEnd
+      );
+      document.body.style.setProperty("--first-color", firstColor);
+      document.body.style.setProperty("--second-color", secondColor);
+      document.body.style.setProperty("--third-color", thirdColor);
+      document.body.style.setProperty("--fourth-color", fourthColor);
+      document.body.style.setProperty("--fifth-color", fifthColor);
+      document.body.style.setProperty("--pointer-color", pointerColor);
+      document.body.style.setProperty("--size", size);
+      document.body.style.setProperty("--blending-value", blendingValue);
+    }
+  }, [
+    gradientBackgroundStart,
+    gradientBackgroundEnd,
+    firstColor,
+    secondColor,
+    thirdColor,
+    fourthColor,
+    fifthColor,
+    pointerColor,
+    size,
+    blendingValue,
+  ]);
   useEffect(() => {
     function move() {
       if (!interactiveRef.current) {

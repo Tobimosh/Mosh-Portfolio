@@ -26,6 +26,8 @@ const Hero = () => {
           <h2 className="tracking-widest text-xs text-center text-blue-100 max-w-80 uppercase">
             Dynamic web magic with next.js{" "}
           </h2>
+  
+
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl capitalize  lg:text-6xl"
             words="Shaping concepts into seamless solutions"
