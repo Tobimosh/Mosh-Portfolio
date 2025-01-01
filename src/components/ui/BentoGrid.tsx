@@ -8,12 +8,10 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
+import Lottie from "react-lottie-player";
 
 import dynamic from "next/dynamic";
-
-const Lottie = dynamic(() => import("react-lottie"), {
-  ssr: false,
-});
+/* eslint-disable no-undef */
 
 export const BentoGrid = ({
   className,
@@ -69,9 +67,10 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "oluwatobimoshood16@gmail.com";
-    navigator.clipboard.writeText(text);
+    navigator.clipboard.writeText("oluwatobimoshood16@gmail.com");
     setCopied(true);
+
+    setTimeout(() => setCopied(false), 2000);
   };
 
   return (
@@ -166,7 +165,12 @@ export const BentoGridItem = ({
                 }`}
               >
                 {typeof window !== "undefined" && (
-                  <Lottie options={defaultOptions} height={200} width={400} />
+                  <Lottie
+                    animationData={animationData}
+                    loop={copied}
+                    play
+                    style={{ height: 200, width: 400 }}
+                  />
                 )}
 
                 {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
