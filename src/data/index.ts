@@ -141,7 +141,7 @@ export const testimonials = [
     quote:
       "Tobi made sure we stayed focused on our goals and achieved them. It was an absolute pleasure collaborating with you and I hope to keep workng with you.",
     name: "Binatari",
-    title: "Director of AlphaStream Technologies",
+    title: "Product Manager at Product Kitchen",
   },
   {
     quote:
