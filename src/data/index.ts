@@ -139,13 +139,13 @@ export const testimonials = [
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Tobi made sure we stayed focused on our goals and achieved them. It was an absolute pleasure collaborating with you and I hope to keep workng with you.",
     name: "Binatari",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Working with tobi was an interesting experience. While it was clear that there was a lot more for you to learn, you proactively took charge in upskilling yourself while being a good team member.",
+      "Working with Tobi was an interesting experience. While it was clear that there was a lot more for him to learn, he proactively took charge in upskilling yourself while being a good team member.",
     name: "Arinze Okorji",
     title: "Frontend Engineer at SID Digital",
   },
