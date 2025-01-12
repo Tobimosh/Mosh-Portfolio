@@ -131,12 +131,12 @@ export const projects = [
 ];
 
 export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Emmanuel Ajayi",
-    title: "Director of AlphaStream Technologies",
-  },
+  // {
+  //   quote:
+  //     "Collaborating with Mosh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mosh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mosh is the ideal partner.",
+  //   name: "Emmanuel Ajayi",
+  //   title: "Director of AlphaStream Technologies",
+  // },
   {
     quote:
       "Tobi made sure we stayed focused on our goals and achieved them. It was an absolute pleasure collaborating with you and I hope to keep workng with you.",
@@ -149,15 +149,15 @@ export const testimonials = [
     name: "Arinze Okorji",
     title: "Frontend Engineer at SID Digital",
   },
+  // {
+  //   quote:
+  //     "Collaborating with Mosh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mosh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mosh is the ideal partner.",
+  //   name: "James Nottidge",
+  //   title: "Director of AlphaStream Technologies",
+  // },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "James Nottidge",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Mosh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mosh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mosh is the ideal partner.",
     name: "Adenuga Oluwaseun",
     title: "Director of AlphaStream Technologies",
   },
