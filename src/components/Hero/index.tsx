@@ -23,9 +23,9 @@ const Hero = () => {
       </div>
       <div className="flex justify-center my-20 relative z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw]  flex flex-col justify-center items-center">
-          <h2 className="tracking-widest text-xs text-center text-blue-100 max-w-80 uppercase">
+          {/* <h2 className="tracking-widest text-xs text-center text-blue-100 max-w-80 uppercase">
             Dynamic web magic with next.js{" "}
-          </h2>
+          </h2> */}
   
 
           <TextGenerateEffect

@@ -149,12 +149,12 @@ export const testimonials = [
     name: "Arinze Okorji",
     title: "Frontend Engineer at SID Digital",
   },
-  // {
-  //   quote:
-  //     "Collaborating with Mosh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mosh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mosh is the ideal partner.",
-  //   name: "James Nottidge",
-  //   title: "Director of AlphaStream Technologies",
-  // },
+  {
+    quote:
+      "Working with Tobi was a delight. He delivered milestones in record time with very little supervision. He was always ready to work, open to feedback and completely committed to the task at hand. Can't wait to work with him again!",
+    name: "James Nottidge",
+    title: "Lead Engineer at Quidax",
+  },
   {
     quote:
       "Collaborating with Mosh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mosh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mosh is the ideal partner.",
