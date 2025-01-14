@@ -153,7 +153,7 @@ export const testimonials = [
     quote:
       "Working with Tobi was a delight. He delivered milestones in record time with very little supervision. He was always ready to work, open to feedback and completely committed to the task at hand. Can't wait to work with him again!",
     name: "James Nottidge",
-    title: "Lead Engineer at Quidax",
+    title: "Senior Engineer at Quidax",
   },
   {
     quote:
