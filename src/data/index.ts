@@ -161,6 +161,12 @@ export const testimonials = [
     name: "Adenuga Oluwaseun",
     title: "Director of AlphaStream Technologies",
   },
+  {
+    quote:
+      "Tobi is an exceptional frontend engineer with unmatched speed and attention to detail. His innovative approach consistently delivers results that exceed client expectations. A true rockstar in every sense",
+    name: "Emmanuel Ajayi",
+    title: "Director Engineering",
+  },
 ];
 
 export const companies = [
