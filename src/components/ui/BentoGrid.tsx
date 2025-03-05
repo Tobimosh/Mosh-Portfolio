@@ -135,7 +135,7 @@
 //                 {leftLists.map((item, i) => (
 //                   <span
 //                     key={i}
-//                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+//                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
 //                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
 //                   >
 //                     {item}
@@ -148,7 +148,7 @@
 //                 {rightLists.map((item, i) => (
 //                   <span
 //                     key={i}
-//                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+//                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
 //                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
 //                   >
 //                     {item}
@@ -189,7 +189,6 @@
 //   );
 // };
 
-
 "use client";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
@@ -205,8 +204,6 @@ import dynamic from "next/dynamic";
 
 // Dynamically import Lottie with SSR disabled
 const Lottie = dynamic(() => import("react-lottie-player"), { ssr: false });
-
-
 
 export const BentoGrid = ({
   className,
@@ -226,7 +223,6 @@ export const BentoGrid = ({
     </div>
   );
 };
-
 
 export const BentoGridItem = ({
   className,
@@ -248,7 +244,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "NextJS", "Typescript"];
-  const rightLists = ["Angular", "Redux", "TailwindCSS"];
+  const rightLists = ["Angular", "Redux", "Vue", "TailwindCSS"];
 
   const [copied, setCopied] = useState(false);
 
