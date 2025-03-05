@@ -128,6 +128,14 @@ export const projects = [
     ],
     link: "https://jabbercoms.netlify.app/",
   },
+  {
+    id: 4,
+    title: "Unsplash Clone",
+    des: "A Frontend test from cowrywise",
+    img: "/unsplash.png",
+    iconLists: ["/scss.svg", "/vue.svg", "/ts.svg"],
+    link: "https://unsplash-clone-mosh.vercel.app/",
+  },
 ];
 
 export const testimonials = [
